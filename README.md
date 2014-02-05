@@ -14,14 +14,14 @@ Appaco_Lib is library which facilitates and speeds up writing by offering a list
 
 Appaco_lib features:
 ====================
-•	exact autocomplete : list of suggestion contain only words that begin by the same prefix typed in text box.
-•	approximate autocomplete : we allow error in prefix typed in text box, it's mean we show word that begin by the same prefix and also the word that begin by prefix similar to the prefix typed.
-•	static ranking : words will be displayed according to the importance of words.
-•	dynamic ranking : static ranking + update the score of the selected word (example +1)
-•	local support for dictionary source, it support huge number of words all in local (example English dictionary).
-•	Ajax query to get the results from server (or sometimes the dictionary source file)
-•	very fast response (trie based).
-•	sport one character typed to get results (use the ranking system)
+•	exact autocomplete : list of suggestion contain only words that begin by the same prefix typed in text box.<br/>
+•	approximate autocomplete : we allow error in prefix typed in text box, it's mean we show word that begin by the same prefix and also the word that begin by prefix similar to the prefix typed.<br/>
+•	static ranking : words will be displayed according to the importance of words.<br/>
+•	dynamic ranking : static ranking + update the score of the selected word (example +1)<br/>
+•	local support for dictionary source, it support huge number of words all in local (example English dictionary).<br/>
+•	Ajax query to get the results from server (or sometimes the dictionary source file)<br/>
+•	very fast response (trie based).<br/>
+•	sport one character typed to get results (use the ranking system)<br/>
 
 	
 

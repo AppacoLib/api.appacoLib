@@ -7,7 +7,7 @@ Appaco_Lib is library which facilitates and speeds up writing by offering a list
 		And it’s support static and dynamic ranking.
 
 
-... <a href="www.example.com/doc_appaco_lib.html" title="details" target="_blank">see details </a>
+... <a href="https://github.com/AppacoLib/api.appacoLib/wiki/Detailed-Description" title="details" target="_blank">see details </a>
 	
 
 	
@@ -29,9 +29,9 @@ Supported language:
 ====================
 appaco_lib is coded in two language : javascript and c/c++.
 
-	1) JS appaco_lib  : used in client side, do all the work locally, and it can get result from server side.
+1) JS appaco_lib  : used in client side, do all the work locally, and it can get result from server side.
 
-	2) C appaco_lib : can be used in any type of application, and also we can use it in a server side using the module FastCGI.
+2) C appaco_lib : can be used in any type of application, and also we can use it in a server side using the module FastCGI.
 	
 those two library can be used separately.
 and also we can use them both in the same context, js version in client side and c/c++ on server side.
@@ -40,42 +40,42 @@ and also we can use them both in the same context, js version in client side and
 
 JS appaco_lib
 =============
-		<a href="#" title="details">	approximate_autoComplete(input_id,source,options_in)</a>
-		<a href="#" title="details">    typeSearch</a>
-		<a href="#" title="details">    typePrintResults</a>
-		<a href="#" title="details">    isExactSearchMethod</a>
-		<a href="#" title="details">    topK_CHAR_SEPARATOR</a>
-		<a href="#" title="details">    words_SEPARATOR  </a>
-		<a href="#" title="details">    doSort</a>
-		<a href="#" title="details">    TOPK_SIZE_GROUP</a>
-		<a href="#" title="details">    delay</a>
-		<a href="#" title="details">    minLength</a>
-		<a href="#" title="details">    sourceFromUrl</a>
-		<a href="#" title="details">    resultsFromUrl</a>
-		<a href="#" title="details">	score_update_unit</a>
-		<a href="#" title="details">	item_ID_OnClick_nextResult</a>
-		<a href="#" title="details">	dataToSend  </a>
-		<a href="#" title="details">	ajaxRequestMethod</a>
+<a href="#" title="details">	approximate_autoComplete(input_id,source,options_in)</a>
+<a href="#" title="details">    typeSearch</a>
+<a href="#" title="details">    typePrintResults</a>
+<a href="#" title="details">    isExactSearchMethod</a>
+<a href="#" title="details">    topK_CHAR_SEPARATOR</a>
+<a href="#" title="details">    words_SEPARATOR  </a>
+<a href="#" title="details">    doSort</a>
+<a href="#" title="details">    TOPK_SIZE_GROUP</a>
+<a href="#" title="details">    delay</a>
+<a href="#" title="details">    minLength</a>
+<a href="#" title="details">    sourceFromUrl</a>
+<a href="#" title="details">    resultsFromUrl</a>
+<a href="#" title="details">	score_update_unit</a>
+<a href="#" title="details">	item_ID_OnClick_nextResult</a>
+<a href="#" title="details">	dataToSend  </a>
+<a href="#" title="details">	ajaxRequestMethod</a>
 
 C appaco_lib
 ============
-		<a href="#" title="details">	Options* new_options();  </a>
-		<a href="#" title="details">	void print_options(Options *my_option);  </a>
-		<a href="#" title="details">	void initialize_AutoComplete(const char *source,Options *my_option_in);  </a>
-		<a href="#" title="details">	ListString* get_results(char* queryWord);  </a>
-		<a href="#" title="details">	ListString *get_next_result();  </a>
-		<a href="#" title="details">	void Print_ListString(ListString *list);  </a>
-		<a href="#" title="details">	void json_Print_ListString(ListString* list);  </a>
-		<a href="#" title="details">	typedef struct Options {...} Options;  </a>
+<a href="#" title="details">	Options* new_options();  </a>
+<a href="#" title="details">	void print_options(Options *my_option);  </a>
+<a href="#" title="details">	void initialize_AutoComplete(const char *source,Options *my_option_in);  </a>
+<a href="#" title="details">	ListString* get_results(char* queryWord);  </a>
+<a href="#" title="details">	ListString *get_next_result();  </a>
+<a href="#" title="details">	void Print_ListString(ListString *list);  </a>
+<a href="#" title="details">	void json_Print_ListString(ListString* list);  </a>
+<a href="#" title="details">	typedef struct Options {...} Options;  </a>
 
 
 examples
 ========
 
-		example 1 : <a href="source_from_local.html" title="source from local file" target="_blank">source from local file</a>
+example 1 : <a href="source_from_local.html" title="source from local file" target="_blank">source from local file</a>
 		
-		example 2 : <a href="source_from_server.html" title="source form server" target="_blank">source from server file</a>
+example 2 : <a href="source_from_server.html" title="source form server" target="_blank">source from server file</a>
 		
-		example 3 : <a href="result_from_server_CGI.html" title="result from server" target="_blank">result from server CGI</a>
+example 3 : <a href="result_from_server_CGI.html" title="result from server" target="_blank">result from server CGI</a>
 		
-		example 4 : <a href="result_from_server_PHP.html" title="result from server" target="_blank">result from server PHP</a>
+example 4 : <a href="result_from_server_PHP.html" title="result from server" target="_blank">result from server PHP</a>

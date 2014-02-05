@@ -3,11 +3,11 @@ appacoLib :
 	
 APProximate AutoComplete Library
 	
-		Appaco_Lib is library which facilitates and speeds up writing by offering a list of words (suggestions) that complement the few characters typed into the input text, while allowing errors in the prefix entered by the user, all by improving the quality of the results with ranking system, according to the importance (score) of words.
+Appaco_Lib is library which facilitates and speeds up writing by offering a list of words (suggestions) that complement the few characters typed into the input text, while allowing errors in the prefix entered by the user, all by improving the quality of the results with ranking system, according to the importance (score) of words.
 		And it’s support static and dynamic ranking.
 
 
-		... <a href="doc_appaco_lib.html" title="details" target="_blank">see details</a>	
+... a href="doc_appaco_lib.html" title="details" target="_blank">see details	
 	
 
 	

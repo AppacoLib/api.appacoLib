@@ -7,7 +7,7 @@ Appaco_Lib is library which facilitates and speeds up writing by offering a list
 		And it’s support static and dynamic ranking.
 
 
-... a href="doc_appaco_lib.html" title="details" target="_blank">see details	
+... <a href="www.example.com/doc_appaco_lib.html" title="details" target="_blank">see details </a>
 	
 
 	

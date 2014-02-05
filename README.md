@@ -40,33 +40,33 @@ and also we can use them both in the same context, js version in client side and
 
 JS appaco_lib
 =============
-<a href="#" title="details">	approximate_autoComplete(input_id,source,options_in)</a>
-<a href="#" title="details">    typeSearch</a>
-<a href="#" title="details">    typePrintResults</a>
-<a href="#" title="details">    isExactSearchMethod</a>
-<a href="#" title="details">    topK_CHAR_SEPARATOR</a>
-<a href="#" title="details">    words_SEPARATOR  </a>
-<a href="#" title="details">    doSort</a>
-<a href="#" title="details">    TOPK_SIZE_GROUP</a>
-<a href="#" title="details">    delay</a>
-<a href="#" title="details">    minLength</a>
-<a href="#" title="details">    sourceFromUrl</a>
-<a href="#" title="details">    resultsFromUrl</a>
-<a href="#" title="details">	score_update_unit</a>
-<a href="#" title="details">	item_ID_OnClick_nextResult</a>
-<a href="#" title="details">	dataToSend  </a>
-<a href="#" title="details">	ajaxRequestMethod</a>
+<a href="#" title="details">	approximate_autoComplete(input_id,source,options_in)</a> <br/>
+<a href="#" title="details">    typeSearch</a> <br/>
+<a href="#" title="details">    typePrintResults</a> <br/>
+<a href="#" title="details">    isExactSearchMethod</a> <br/>
+<a href="#" title="details">    topK_CHAR_SEPARATOR</a> <br/>
+<a href="#" title="details">    words_SEPARATOR  </a><br/>
+<a href="#" title="details">    doSort</a><br/>
+<a href="#" title="details">    TOPK_SIZE_GROUP</a><br/>
+<a href="#" title="details">    delay</a><br/>
+<a href="#" title="details">    minLength</a><br/>
+<a href="#" title="details">    sourceFromUrl</a><br/>
+<a href="#" title="details">    resultsFromUrl</a><br/>
+<a href="#" title="details">	score_update_unit</a><br/>
+<a href="#" title="details">	item_ID_OnClick_nextResult</a><br/>
+<a href="#" title="details">	dataToSend  </a><br/>
+<a href="#" title="details">	ajaxRequestMethod</a><br/>
 
 C appaco_lib
 ============
-<a href="#" title="details">	Options* new_options();  </a>
-<a href="#" title="details">	void print_options(Options *my_option);  </a>
-<a href="#" title="details">	void initialize_AutoComplete(const char *source,Options *my_option_in);  </a>
-<a href="#" title="details">	ListString* get_results(char* queryWord);  </a>
-<a href="#" title="details">	ListString *get_next_result();  </a>
-<a href="#" title="details">	void Print_ListString(ListString *list);  </a>
-<a href="#" title="details">	void json_Print_ListString(ListString* list);  </a>
-<a href="#" title="details">	typedef struct Options {...} Options;  </a>
+<a href="#" title="details">	Options* new_options();  </a><br/>
+<a href="#" title="details">	void print_options(Options *my_option);  </a><br/>
+<a href="#" title="details">	void initialize_AutoComplete(const char *source,Options *my_option_in);  </a><br/>
+<a href="#" title="details">	ListString* get_results(char* queryWord);  </a><br/>
+<a href="#" title="details">	ListString *get_next_result();  </a><br/>
+<a href="#" title="details">	void Print_ListString(ListString *list);  </a><br/>
+<a href="#" title="details">	void json_Print_ListString(ListString* list);  </a><br/>
+<a href="#" title="details">	typedef struct Options {...} Options;  </a><br/>
 
 
 examples

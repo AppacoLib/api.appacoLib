@@ -27,11 +27,14 @@ Appaco_lib features:
 
 Supported language:
 ====================
-	appaco_lib is coded in two language : javascript and c/c++.
-	JS appaco_lib  : used in client side, do all the work locally, and it can get result from server side.
-	C appaco_lib : can be used in any type of application, and also we can use it in a server side using the module FastCGI.
-	those two library can be used separately.
-	and also we can use them both in the same context, js version in client side and c/c++ on server side.
+appaco_lib is coded in two language : javascript and c/c++.
+
+	1) JS appaco_lib  : used in client side, do all the work locally, and it can get result from server side.
+
+	2) C appaco_lib : can be used in any type of application, and also we can use it in a server side using the module FastCGI.
+	
+those two library can be used separately.
+and also we can use them both in the same context, js version in client side and c/c++ on server side.
 
 
 

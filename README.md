@@ -1,10 +1,5 @@
-appacoLib
+appacoLib : APProximate AutoComplete Library
 =========
-
-	<h2>APProximate AutoComplete Library</h2>
-	
-
-	
 	
 	
 		Appaco_Lib is library which facilitates and speeds up writing by offering a list of words (suggestions) that complement the few characters typed into the input text, while allowing errors in the prefix entered by the user, all by improving the quality of the results with ranking system, according to the importance (score) of words.
@@ -16,7 +11,8 @@ appacoLib
 
 	
 
-	<h2>Appaco_lib features:</h2>
+Appaco_lib features:
+====================
 •	exact autocomplete : list of suggestion contain only words that begin by the same prefix typed in text box.<br/>
 •	approximate autocomplete : we allow error in prefix typed in text box, it's mean we show word that begin by the same prefix and also the word that begin by prefix similar to the prefix typed.<br/>
 •	static ranking : words will be displayed according to the importance of words.<br/>
@@ -28,7 +24,8 @@ appacoLib
 
 	
 
-	<h2>Supported language:</h2>
+Supported language:
+====================
 	appaco_lib is coded in two language : javascript and c/c++.<br/>
 	JS appaco_lib  : used in client side, do all the work locally, and it can get result from server side.<br/>
 	C appaco_lib : can be used in any type of application, and also we can use it in a server side using the module FastCGI.<br/>
@@ -37,7 +34,8 @@ appacoLib
 
 
 
-	<h3>JS appaco_lib</h3>
+JS appaco_lib
+=============
 		<a href="#" title="details">	approximate_autoComplete(input_id,source,options_in)</a><br/>
 		<a href="#" title="details">    typeSearch</a><br/>
 		<a href="#" title="details">    typePrintResults</a><br/>
@@ -55,7 +53,8 @@ appacoLib
 		<a href="#" title="details">	dataToSend  </a><br/>
 		<a href="#" title="details">	ajaxRequestMethod</a><br/>
 
-		<h3>C appaco_lib</h3>
+C appaco_lib
+============
 		<a href="#" title="details">	Options* new_options();  </a><br/>
 		<a href="#" title="details">	void print_options(Options *my_option);  </a><br/>
 		<a href="#" title="details">	void initialize_AutoComplete(const char *source,Options *my_option_in);  </a><br/>
@@ -65,7 +64,8 @@ appacoLib
 		<a href="#" title="details">	void json_Print_ListString(ListString* list);  </a><br/>
 		<a href="#" title="details">	typedef struct Options {...} Options;  </a><br/>
 
-<h2> examples </h2>
+examples
+========
 
 		example 1 : <a href="source_from_local.html" title="source from local file" target="_blank">source from local file</a>
 		<br/><br/>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> appaco_lib </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="approximate_autoComplete.css"/>
+	
+    </head>
+    <body>
+	
+	<h1> get all words from a local dectionary </h1>
+	<br/><br/>
+
+	<section align="center">
+		<input type="file" id="file"> <br/>
+        <input id="search" type="text"/>
+        <input type="button" id="next_result_button" value="next">
+	</section>
+	
+		<section>
+		<div>
+			<h2>html code :</h2>
+			<code>
+			&lt;input type=&quot;file&quot; id=&quot;file&quot;&gt;&lt;br/&gt;<br/>&lt;input id=&quot;search&quot; type=&quot;text&quot;/&gt;<br/>&lt;input type=&quot;button&quot; id=&quot;next_result_button&quot; value=&quot;next&quot;&gt;
+			<code>
+		</div>
+		
+		<div>
+			<h2>JavaScript code:</h2>
+			<code>
+<pre>
+var file_input_id = 'file';
+var fileInput = document.querySelector('#'+file_input_id);
+
+fileInput.onchange = function() 
+{
+	var reader = new FileReader();
+ 
+	reader.onload = function() 
+	{	
+		options.doSort = true;
+		options.item_ID_OnClick_nextResult='next_result_button';
+		options.score_update_unit = 0;
+		
+		approximate_autoComplete('search',reader.result);
+	};
+ 
+	reader.readAsText(fileInput.files[0],"UTF-8");
+};
+</pre>
+			</code>
+		</div>
+	
+	</section>
+
+		
+    </body>
+  
+  <script  type="text/javascript" src="approximate_autoComplete.js"> </script>
+		<script>
+		
+// get all words from a local dectionary
+
+			var file_input_id = 'file';
+			var fileInput = document.querySelector('#'+file_input_id);
+
+			fileInput.onchange = function() 
+			{
+				var reader = new FileReader();
+			 
+				reader.onload = function() 
+				{	
+					// avec le paramettre option_in
+					// approximate_autoComplete('search',reader.result,{doSort:true,topK_CHAR_SEPARATOR:"#",minLength:1});
+					
+					// sans option_in comme paramettre
+					options.doSort = true;
+					options.item_ID_OnClick_nextResult='next_result_button';
+					options.score_update_unit = 0;
+					
+					approximate_autoComplete('search',reader.result);
+				};
+			 
+				reader.readAsText(fileInput.files[0],"UTF-8");
+			};
+			
+		</script>
+		
+</html>

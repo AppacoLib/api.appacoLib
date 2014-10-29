@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1342952938 source:/home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib/main.cpp
+	"MainConsol.h"
+
+1398603955 /home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib/MainConsol.h
+	<stdio.h>
+	"include/approximate_autocomplete.h"
+
+1395421465 /home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib/include/approximate_autocomplete.h
+	"define.h"
+	"trie_coding.h"
+	"query_trie.h"
+	"query_trie_editDistance_1error.h"
+	"get_listWord.h"
+
+1387795595 /home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib/include/define.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"my_List_c.h"
+
+1387296074 /home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib/include/my_List_c.h
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	<string.h>
+	"define.h"
+
+1386495284 /home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib/include/trie_coding.h
+	<stdio.h>
+	<stdlib.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<string.h>
+	<stdint.h>
+	"integer_coding.h"
+	"define.h"
+	"utf8.h"
+
+1341565469 /home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib/include/integer_coding.h
+	<stdint.h>
+	<stdio.h>
+
+1341588987 /home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib/include/utf8.h
+	<stdlib.h>
+	<stdarg.h>
+	<stdint.h>
+	"define.h"
+
+1379080960 /home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib/include/query_trie.h
+	<stdio.h>
+	<stdlib.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<string.h>
+	<stdint.h>
+	"define.h"
+	"integer_coding.h"
+	"utf8.h"
+
+1387215933 /home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib/include/query_trie_editDistance_1error.h
+	"query_trie.h"
+	"my_List_c.h"
+	"hash_fonction.h"
+
+1387213157 /home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib/include/hash_fonction.h
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1386627464 /home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib/include/get_listWord.h
+	"my_List_c.h"
+	"integer_coding.h"
+	"utf8.h"
+	"heapSort.h"
+
+1386495089 /home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib/include/heapSort.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+
+1395474792 source:/home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib/MainConsol.cpp
+	"MainConsol.h"
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1342952938 source:/home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib_system/main.cpp
+	"MainConsol.h"
+
+1414572590 /home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib_system/MainConsol.h
+	<stdio.h>
+	"approximate_autocomplete.h"
+
+1395474792 source:/home/ibra/Desktop/C_appaco_lib_exemple/use staticLib/linux/cbp_use_appaco_lib_system/MainConsol.cpp
+	"MainConsol.h"
+

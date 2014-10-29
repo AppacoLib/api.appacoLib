@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> appaco_lib example PHP </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="approximate_autoComplete.css"/>
+	
+    </head>
+    <body>
+	
+	<h1 align="center"> results from server PHP</h1>
+	<br/><br/>
+	
+	<section align="center">
+        <input id="search" type="text"/>
+	</section>
+	
+	<section>
+		<div>
+			<h2>html code :</h2>
+			<code>
+			&ltinput id="search" type="text"/&gt
+			<code>
+		</div>
+		
+		<div>
+			<h2>JavaScript code:</h2>
+			<code>
+			var source="approximate_autoComplete.php";<br/>
+			approximate_autoComplete('search',source,{resultsFromUrl:true,dataToSend:{SIZE_GROUP:5}});<br/>
+			</code>
+		</div>
+	
+	</section>
+	
+	
+		
+    </body>
+  
+  <script  type="text/javascript" src="approximate_autoComplete.js"> </script>
+		<script>
+			
+			// 2 : file from serveur
+			var source="approximate_autoComplete.php";
+			approximate_autoComplete('search',source,{resultsFromUrl:true,dataToSend : {SIZE_GROUP :5,minLength:2}});
+			
+		</script>
+		
+</html>

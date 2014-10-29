@@ -1,0 +1,32 @@
+/* 
+    Document   : approximate_autoComplete
+    Created on : 18 nov. 2013, 10:41:29
+    Author     : ibrahim
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.results
+{
+    display:none;
+    border:1px solid #AAA;
+    border-top-width:0;
+    background-color:#FFF;
+    position: absolute;
+}
+
+.results div
+{
+    text-align:left;
+    background-color:#FFF;
+}
+
+.results div:hover
+{
+    background-color:#DDD!important;
+}
+
+.result_focus
+{
+    background-color:#DDD!important;
+}

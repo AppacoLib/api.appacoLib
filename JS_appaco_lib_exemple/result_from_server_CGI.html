@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> appaco_Lib </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="approximate_autoComplete.css"/>
+	
+    </head>
+    <body>
+
+	<h1 align="center"> results from server CGI</h1>
+	<br/><br/>
+    
+<section align="center">	
+        <input id="search" type="text"/>
+	</section>
+	
+			<section>
+		<div>
+			<h2>html code :</h2>
+			<code>
+			&lt;input id=&quot;search&quot; type=&quot;text&quot;/&gt;
+			<code>
+		</div>
+		
+		<div>
+			<h2>JavaScript code:</h2>
+			<code>
+<pre>
+var source="../cgi-bin/autoCompilete_codeProject.exe";
+approximate_autoComplete('search',source,{TOPK_SIZE_GROUP:10,minLength:1,resultsFromUrl:true});
+</pre>
+			</code>
+		</div>
+	
+	</section>
+
+		
+    </body>
+	
+  <script  type="text/javascript" src="approximate_autoComplete.js"> </script>
+		<script>
+			
+			// result from server
+			var source="../cgi-bin/autoCompilete_codeProject.exe";
+			approximate_autoComplete('search',source,{TOPK_SIZE_GROUP:10,minLength:1,resultsFromUrl:true});
+			
+		</script>
+		
+</html>

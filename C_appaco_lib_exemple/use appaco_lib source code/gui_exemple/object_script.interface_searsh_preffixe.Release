@@ -1,0 +1,15 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\utf8.o
+./release\trie_coding.o
+./release\query_trie_editDistance_1error.o
+./release\query_trie.o
+./release\my_List_c.o
+./release\integer_coding.o
+./release\heapSort.o
+./release\hash_fonction.o
+./release\get_listWord.o
+./release\approximate_autocomplete.o
+./release\moc_mainwindow.o
+);

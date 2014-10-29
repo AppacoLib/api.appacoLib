@@ -1,0 +1,56 @@
+body
+{
+	padding-top:20px;
+	background-color:#F5F5F5;
+	width: 70%; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    
+}
+
+.header
+{
+	align : center;
+}
+
+#search
+{
+	padding:2px 4px;
+	width:220px;
+	height:22px;
+	border:1px solid #AAA;
+}
+
+#search:hover,#search:focus
+{
+	border-color:#777;
+}
+
+/* les liens ------------------------------------------------------------------------*/
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   /*color: blue;
+   font-style: italic;
+   */
+}
+ 
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+
+a:active /* Quand le visiteur clique sur le lien */
+{
+    background-color: #FFCC66;
+}
+
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+    background-color: #FFCC66;
+}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: #AAA; /* Appliquer une couleur grise */
+}

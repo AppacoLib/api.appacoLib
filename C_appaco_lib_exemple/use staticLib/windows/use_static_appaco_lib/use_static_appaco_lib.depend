@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1342949338 source:c:\users\ibrahim\documents\github\api.appacolib\c_appaco_lib_exemple\use staticlib\windows\use_static_appaco_lib\main.cpp
+	"MainConsol.h"
+
+1398600355 c:\users\ibrahim\documents\github\api.appacolib\c_appaco_lib_exemple\use staticlib\windows\use_static_appaco_lib\mainconsol.h
+	<stdio.h>
+	"include/approximate_autocomplete.h"
+
+1395421465 c:\users\ibrahim\documents\github\api.appacolib\c_appaco_lib_exemple\use staticlib\windows\use_static_appaco_lib\include\approximate_autocomplete.h
+	"define.h"
+	"trie_coding.h"
+	"query_trie.h"
+	"query_trie_editDistance_1error.h"
+	"get_listWord.h"
+
+1387795595 c:\users\ibrahim\documents\github\api.appacolib\c_appaco_lib_exemple\use staticlib\windows\use_static_appaco_lib\include\define.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"my_List_c.h"
+
+1387296074 c:\users\ibrahim\documents\github\api.appacolib\c_appaco_lib_exemple\use staticlib\windows\use_static_appaco_lib\include\my_list_c.h
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	<string.h>
+	"define.h"
+
+1386495284 c:\users\ibrahim\documents\github\api.appacolib\c_appaco_lib_exemple\use staticlib\windows\use_static_appaco_lib\include\trie_coding.h
+	<stdio.h>
+	<stdlib.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<string.h>
+	<stdint.h>
+	"integer_coding.h"
+	"define.h"
+	"utf8.h"
+
+1341561869 c:\users\ibrahim\documents\github\api.appacolib\c_appaco_lib_exemple\use staticlib\windows\use_static_appaco_lib\include\integer_coding.h
+	<stdint.h>
+	<stdio.h>
+
+1341585387 c:\users\ibrahim\documents\github\api.appacolib\c_appaco_lib_exemple\use staticlib\windows\use_static_appaco_lib\include\utf8.h
+	<stdlib.h>
+	<stdarg.h>
+	<stdint.h>
+	"define.h"
+
+1379077360 c:\users\ibrahim\documents\github\api.appacolib\c_appaco_lib_exemple\use staticlib\windows\use_static_appaco_lib\include\query_trie.h
+	<stdio.h>
+	<stdlib.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<string.h>
+	<stdint.h>
+	"define.h"
+	"integer_coding.h"
+	"utf8.h"
+
+1387215933 c:\users\ibrahim\documents\github\api.appacolib\c_appaco_lib_exemple\use staticlib\windows\use_static_appaco_lib\include\query_trie_editdistance_1error.h
+	"query_trie.h"
+	"my_List_c.h"
+	"hash_fonction.h"
+
+1387213157 c:\users\ibrahim\documents\github\api.appacolib\c_appaco_lib_exemple\use staticlib\windows\use_static_appaco_lib\include\hash_fonction.h
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1386627464 c:\users\ibrahim\documents\github\api.appacolib\c_appaco_lib_exemple\use staticlib\windows\use_static_appaco_lib\include\get_listword.h
+	"my_List_c.h"
+	"integer_coding.h"
+	"utf8.h"
+	"heapSort.h"
+
+1386495089 c:\users\ibrahim\documents\github\api.appacolib\c_appaco_lib_exemple\use staticlib\windows\use_static_appaco_lib\include\heapsort.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+
+1395474792 source:c:\users\ibrahim\documents\github\api.appacolib\c_appaco_lib_exemple\use staticlib\windows\use_static_appaco_lib\mainconsol.cpp
+	"MainConsol.h"
+
